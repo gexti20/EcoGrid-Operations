@@ -32,5 +32,11 @@ st.sidebar.markdown("---")
 st.sidebar.info(
     "Sube un archivo CSV para visualizar los datos de la Smart Grid."
 )
+from componentes_datos import IngestorDatos
+from componetes_prediccion import MotorPrediccion
+
+ingestor = IngestorDatos
+predictor = MotorPrediccion
+
 
 
